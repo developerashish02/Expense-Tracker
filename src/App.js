@@ -1,10 +1,10 @@
-
+import ExpenceItem from "./components/ExpenceItems";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello i am a app component</h1>
+			<ExpenceItem />
 		</div>
 	);
 }
