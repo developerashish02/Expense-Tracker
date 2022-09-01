@@ -1,4 +1,4 @@
-import "../styles/ExpenseDate.css";
+import './ExpenseDate.css'
 const ExpenceDate = (props) => {
 	// getting the dates humen readeble format
 	const month = props.date.toLocaleString("en-US", { month: "long" });

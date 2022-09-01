@@ -1,4 +1,4 @@
-import ExpenceItem from "./components/ExpenceItems";
+import ExpenceItem from "./components/Expense/ExpenceItems";
 import "./App.css";
 
 function App() {
@@ -7,25 +7,25 @@ function App() {
 			id: "e1",
 			title: "Car Inseranse",
 			amount: "10,000",
-			date: new Date(2020 , 7 ,14),
+			date: new Date(2020, 7, 14),
 		},
 		{
 			id: "e1",
 			title: "Bike Inseranse",
 			amount: "5,000",
-			date: new Date(2021 , 7 ,14),
+			date: new Date(2021, 7, 14),
 		},
 		{
 			id: "e1",
 			title: "Helth Inseranse",
 			amount: "12,000",
-			date: new Date(2022 , 7 ,14),
+			date: new Date(2022, 7, 14),
 		},
 		{
 			id: "e1",
 			title: "Family Inseranse",
 			amount: "20,000",
-			date: new Date(2022, 7 ,14),
+			date: new Date(2022, 7, 14),
 		},
 	];
 	return (

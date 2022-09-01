@@ -1,4 +1,4 @@
-import "../styles/ExpenseItems.css";
+import './ExpenseItems.css'
 import ExpenceDate from "./ExpenseDate";
 
 const ExpenceItem = (props) => {
